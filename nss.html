@@ -13,9 +13,11 @@
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 			<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-			<link href="nss.css" rel="stylesheet">
+			<script src="nss.js"></script>
+			<link href="nss.css" rel="stylesheet">		
 		</head>
 	<body>
 
@@ -100,9 +102,9 @@
 						<div class="dropdown show">
 		  						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Blood Donor's List</a>
 							<div class="dropdown-menu">
-							    <a class="dropdown-item" href="#">Donors of September 2018</a>
-		    					<a class="dropdown-item" href="#">Donors of March 2018</a>
-		    					<a class="dropdown-item" href="#">Donors of October 2017</a>
+							    <a class="dropdown-item" href="bd list.html">Donors of September 2018</a>
+		    					<a class="dropdown-item" href="bd list.html">Donors of March 2018</a>
+		    					<a class="dropdown-item" href="bd list.html">Donors of October 2017</a>
 		    					<a class="dropdown-item" href="#">Register</a>
 		  					</div>
 						</div>	
@@ -239,59 +241,58 @@
 				</div>
 			</div>
 		</div>
-  <footer class="footer-distributed">
 
-      <div class="footer-left">
-        <p style="color:white; ">SUGGESTIONS PLEASE </p>
-        <br>
-        <form>
-          <input type="text" style="height: 200px;">
-          <br>
-          <input type="submit" value="submit" style="background-color: blue; color: white;">
-       </form>
-       <br>
-       <p style="color:white; " > &copy All copyrights reserved to NIT Rourkela</p>
-      </div>
+		<!-- Footer -->
 
-      <div class="footer-center">
+		<footer>
+			<div class="container-fluid ">
+				<div class="row">
+					<form>
+						<div class="form mx-auto col-md-12 col-lg">
+						  	<div class="form-group">
+						    	<label for="email">Enter your Email address</label>
+						    	<input type="email" class="form-control" id="email" placeholder="name@example.com">
+						  	</div>
+						  	<div class="form-group">
+							    <label for="suggestion">Feel free to Suggest!</label>
+							   	<textarea class="form-control" id="suggestion" rows="5"></textarea>
+						  	</div>
+						  	<a class="btn btn-primary" type="button">Submit!</a>
+						 </div>
+					</form>
+					<div class="contact ml-auto col-md-12 col-lg">
+						<hr class="light">
+						<h2>Contact:</h2>
+						<hr class="light">
+						<h3>Prof. Pabitra M. Khilar</h3>
+						<h5>PIC, NSS</h5>
+						<a class="btn" type="button" href="mailto: pmkhilar@nitrkl.ac.in"><span class="fa fa-envelope"></span> : pmkhilar@nitrkl.ac.in</a>
+						<hr class="light">
+						<h3>Mr. Jagannath Sahoo</h3>
+						<h5>Chief Co-ordinator, NSS</h5>
+						<a class="btn" type="button" href="mailto: jsahoo110@gmail.com"><span class="fa fa-envelope"></span> : jsahoo110@gmail.com</a>
+						<a class="btn" type="button" href="tel: +91 8458061139"><span class="fa fa-phone"></span> : +91 8458061139</a>
+					</div>	
+					<div class="address ml-auto col-md-12 col-lg">
+						<hr class="light">
+						<h2>Address:</h2>
+						<hr class="light">
+						<br><h3>National Institute of Technology, Rourkela</h3>
+						<h5>Sector 1, Rourkela</h5>
+						<h5>Odisha</h5>
+						<h5>India</h5>
+						<h5>Pincode: 769008</h5>
+					</div>
+					<div class="bottom col-12">
+						<p>&copy;2020 National Service Scheme | National Institute of Technology, Rourkela | All Rights Reserved.</p>
+					</div>	
+				</div>
+			</div>
+		</footer>
 
-        <div>
-          <div>PROFESSOR name</div>
-
-          <i class="fa fa-phone"></i>
-          <p><a href="#">902034090</a></p>
-        </div>
-        <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="#">email@gmail.com</a></p>
-        </div>
-        <div>
-         <p class="footer-links">
-          <a href="#">Home</a>
-          |
-          <a href="#">team</a>
-          |
-          <a href="#">workplace</a>
-          |
-          <a href="#">blood donors list</a>
-          |
-          <a href="#">gallery</a>
-        </p>
-
-        </div>
-      </div>
-      <div class="footer-right">
-        <p class="footer-nss-about">
-          <span>About nss</span>
-          We offer social service</p>
-        <div class="footer-icons">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i>
-        </div>
-      </div>
-    </footer>
-  </body>
+		<!-- Go to top button -->		
+		
+		<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" data-toggle="tooltip" data-placement="left"><i class="fa fa-angle-double-up"></i></a>
+  	</body>
 </html>
 	
