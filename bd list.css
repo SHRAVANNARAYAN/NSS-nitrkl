@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+	
+	font-family: 'Poppins', 'sans-serif';
+	background-color: #FFFFFF;
+}
+
+/*Nav Bar*/
+
+.navbar{
+
+	background-color: #061566;
+}
+
+.navbar-nav li{
+
+	padding-right: 2.5em;
+	color: #000000;
+}
+
+.navbar-nav a{
+
+	letter-spacing: 0.15em;
+}
+
+.nav-link:hover {
+
+	background-color: #000000;
+	color: #E5FF00;
+}
+
+@media (min-width: 768px){
+
+.navbar-logo{
+
+	padding-left: 1em;
+}
+
+}
+
+/*Dropdown Menu*/
+
+.dropdown-menu{
+
+	background-color: #ACB7F1;
+}
+
+/*Table*/
+
+.table{
+
+	padding-top: 4em;
+	padding-left: 7em;
+
+}
+
+.table thead{
+
+	background-color: #BCC521;
+}
+
+@media (max-width: 768px){
+
+.table{
+
+	padding-top: 1em;
+	
+}
+
+}	
+
+/*Heading*/
+
+.heading h1{
+
+	padding-top: 1em;
+	color: #BCC521;
+	text-align: center;
+}
+
+/*Footer*/
+
+footer{
+background-color:#3f3f3f;
+color: #d5d5d5;
+padding-top: 2rem;
+}
+
+hr.light{
+border-top: 1px solid #d5d5d5;
+width: 75%;
+margin-top: 0.8rem;
+margin-bottom: 1rem;
+}
+
+footer a{
+color: #d5d5d5;
+}
+
+.contact, .address{
+
+  padding-right: 4em;
+  text-align: center;
+}
+
+.form{
+
+  padding-left: 3em;
+  padding-right: 7em;
+}
+
+.bottom{
+  
+  background-color: #2A2A2A;
+  text-align: center;
+  padding-top: 0.75em;
+  height: 3em;
+}
+
+/*Media Queries for Footer*/
+
+@media (max-width: 793px){
+
+.bottom{
+  
+  height: 5em;
+}
+
+}
+
+@media (max-width: 432px){
+
+.bottom{
+  
+  height: 6em;
+}
+
+}
+
+
